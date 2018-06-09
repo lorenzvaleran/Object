@@ -20,6 +20,11 @@ int MathOp::add(int a, int b)
 	return (a+b);
 }
 
+int MathOp::sub(int a, int b)
+{
+	return (a-b);
+}
+
 extern "C"
 {
 MathOp *mathOp=new MathOp();

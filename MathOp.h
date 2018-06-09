@@ -17,6 +17,7 @@ public:
 	virtual ~MathOp();
 
 	virtual int add(int a, int b);
+    virtual int sub(int a, int b);
 };
 
 #endif /* MATHOP_H_ */
