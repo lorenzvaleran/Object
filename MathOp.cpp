@@ -29,5 +29,5 @@ extern "C"
 {
 MathOp *mathOp=new MathOp();
 int add(int i, int j){return mathOp->add(i,j);};
-//delete mathOp;
+delete mathOp;
 }
